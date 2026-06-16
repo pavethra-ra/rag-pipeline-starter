@@ -37,15 +37,20 @@ python examples/demo.py
 
 ## 📁 Project Structure
 
-rag-pipeline-starter/
+rag-pipeline-starter/ 
+├── README.md 
+├── requirements.txt 
+├── .gitignore 
+├── .env.example 
 ├── src/
-│   ├── rag_pipeline.py      # Main RAG class
-│   ├── document_loader.py   # Document loaders
-│   └── embeddings.py        # Embedding utilities
-├── examples/
-│   └── demo.py              # Usage example
-├── requirements.txt
-└── README.md
+│       ├── __init__.py 
+│      ├── rag_pipeline.py │ 
+│      ├── document_loader.py │ 
+│      ├── embeddings.py 
+├── data/  
+|             └── sample_docs/ 
+├── examples/ 
+              └──demo.py
 
 ## 💡 Example Usage
 
